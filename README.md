@@ -10,5 +10,9 @@
 * Записываем найденные согласно условию элементы во второй массив.
 * Удаляем пустые элементы
 * Выводим массив на печать.
-## **2. Пишу код.**
 
+
+![BlockDiagram](https://github.com/medvedit/FinaProjectGB/blob/main/BlockDiagram.png?raw=true)
+
+## **2. Пишу код.**
+• Смотреть папку FinalTask.
