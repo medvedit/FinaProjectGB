@@ -2,8 +2,9 @@
 string[] result = new string[array.Length];
 
 
-
-
+lengthOfArrayElements(array, result);
+string[]resultFinal = result.Where (x => !string.IsNullOrEmpty(x)).ToArray();
+PrintArray(resultFinal);
 
 
 
