@@ -21,3 +21,12 @@ void lengthOfArrayElements(string[] arr1, string[] arr2)
         }
     }
 }
+
+void PrintArray(string[] arr3)
+{
+    for (int i = 0; i < arr3.Length; i++)
+    {
+        Console.Write($"\"{arr3[i]}\", ");
+    }
+    Console.WriteLine();
+}
