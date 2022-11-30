@@ -3,11 +3,7 @@ string[] result = new string[array.Length];
 
 
 lengthOfArrayElements(array, result);
-string[]resultFinal = result.Where (x => !string.IsNullOrEmpty(x)).ToArray();
-PrintArray(resultFinal);
-
-
-
+PrintArray(result);
 
 
 void lengthOfArrayElements(string[] arr1, string[] arr2)
@@ -25,6 +21,7 @@ void lengthOfArrayElements(string[] arr1, string[] arr2)
 
 void PrintArray(string[] arr3)
 {
+    arr3 = arr3.Where (x => !string.IsNullOrEmpty(x)).ToArray();
     for (int i = 0; i < arr3.Length; i++)
     {
         Console.Write($"\"{arr3[i]}\", ");
